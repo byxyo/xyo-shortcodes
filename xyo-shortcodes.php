@@ -1,13 +1,17 @@
 <?php
 
 /*
-  Plugin Name: Shortcodes by Xyo
-  Plugin URI: https://xyo.dev/
+  Plugin Name: Xyo Shortcodes
+  Plugin URI: https://xyo.dev/shortcodes
   Description: Media shortcodes ([youtube], [vimeo], [video], [videoflash], [source]) extracted from the beehuge theme so they no longer depend on the theme (or Jetpack for [vimeo]).
   Version: 1.0.0
   Author: Patrick Petit (Xyo)
   Author URI: https://xyo.dev/
-  License: GPL2
+  License: GPLv2 or later
+  License URI: https://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: xyo-shortcodes
+  Requires at least: 6.0
+  Requires PHP: 8.1
 */
 
 if (!defined('ABSPATH')) {
